@@ -1,8 +1,8 @@
-# **Naswawilantama.com**
+# **naswawilantama.com**
 
 ---
 
-**_naswawilantama.com_** is a personal portfolio website, It will contain personal information, technical skills, some finished projects and contacts, built using **HTML, CSS and Javascript**
+**_naswawilantama.com_** is a personal portfolio website, It will contain personal information, technical skills, some finished projects and contacts, built using **HTML, CSS and Javascript.**
 
 It will consist of several pages:
 
