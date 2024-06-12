@@ -4,18 +4,31 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Naswa Wilantama | Projects</title>
-    <link rel="stylesheet" href="../index.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../output.css" />
   </head>
-  <body>
+  <body class="md:pt-[20px] md:py-[9rem];">
     <!-- Navbar -->
-    <header id="navbar">
+    <header id="navbar" class="flex justify-between">
       <img src="../assets/Endabelyu-Logo-2.svg" alt="Endabelyu-Logo" />
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/contact/">Contacts</a></li>
+      <nav class="w-[30rem]">
+        <ul class="flex gap-4 p-0 list-none">
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href="/" class="text-[#a11b1b] font-semibold">Home</a>
+          </li>
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href=" /projects/" class="text-[#a11b1b] font-semibold"
+              >Projects</a
+            >
+          </li>
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href="/about/" class="text-[#a11b1b] font-semibold">About</a>
+          </li>
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href="/contact/" class="text-[#a11b1b] font-semibold"
+              >Contacts</a
+            >
+          </li>
           <li>
             <button><img src="" alt="change-mode-toogle" /></button>
           </li>
@@ -23,5 +36,38 @@
       </nav>
     </header>
     <!-- Navbar -->
+    <main class="mt-16">
+      <h1 class="text-5xl text-[#A11B1B] font-bold">Projects :</h1>
+      <section class="mt-8 flex gap-8 justify-between">
+        <div
+          class="flex flex-col gap-5 border-2 border-[#765B26] p-5 rounded-md"
+        >
+          <h1 class="font-bold">Title Project</h1>
+          <img src="" alt="project-image" class="w-full" />
+          <ul>
+            <li>
+              <img src="" alt="techstack-logo" />
+            </li>
+          </ul>
+          <p class="">
+            This project is purposed to be naswa wilantama personal website.
+          </p>
+        </div>
+        <div
+          class="flex flex-col gap-5 border-2 border-[#765B26] p-5 rounded-md"
+        >
+          <h1 class="font-bold">Title Project</h1>
+          <img src="" alt="project-image" />
+          <ul>
+            <li>
+              <img src="" alt="techstack-logo" />
+            </li>
+          </ul>
+          <p class="">
+            This project is purposed to be naswa wilantama personal website.
+          </p>
+        </div>
+      </section>
+    </main>
   </body>
 </html>
