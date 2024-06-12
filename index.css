@@ -2,13 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+@import ('https://cdn.tailwindcss.com');
 @layer base {
   body {
-    background-color: #fff0e4;
-    padding: 20px 124px 0 124px;
+    @apply bg-[#fff0e4] md:pt-[20px] md:px-[9rem] p-0;
   }
+
   /* navbar */
-  #navbar {
+  /* #navbar {
     display: flex;
     justify-content: space-between;
   }
@@ -24,17 +25,18 @@
   #navbar > nav > ul > li {
     list-style: none;
   }
-  #navbar > nav > ul > li:hover {
-    background-color: rgb(255, 211, 153);
-    border-radius: 5px;
-    padding: 4px 0;
-  }
+  
   #navbar > nav > ul > li > a {
     color: #a11b1b;
     text-decoration: none;
     padding: 0.5rem;
-  }
+  } */
   /* navbar */
+  /* #navbar > nav > ul > li:hover {
+    background-color: #ffd399;
+    border-radius: 5px;
+    padding: 4px 0;
+  } */
 }
 
 /* home */
