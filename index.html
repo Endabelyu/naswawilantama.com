@@ -5,19 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Naswa Wilantama | Home</title>
     <link rel="icon" href="./assets/Endabelyu-Logo.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="index.css" />
-    <link rel="stylesheet" href="home.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="output.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <header id="navbar">
+    <header id="navbar" class="flex justify-between">
       <img src="./assets/Endabelyu-Logo-2.svg" alt="Endabelyu-Logo" />
-      <nav>
-        <ul>
-          <li><a href="/">Home</a></li>
-          <li><a href="/projects/">Projects</a></li>
-          <li><a href="/about/">About</a></li>
-          <li><a href="/contact/">Contacts</a></li>
+      <nav class="w-[30rem]">
+        <ul class="flex gap-4 p-0 list-none">
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href="/" class="text-[#a11b1b] font-semibold">Home</a>
+          </li>
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href=" /projects/" class="text-[#a11b1b] font-semibold"
+              >Projects</a
+            >
+          </li>
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href="/about/" class="text-[#a11b1b] font-semibold">About</a>
+          </li>
+          <li class="px-1 rounded hover:bg-[#ffd399]">
+            <a href="/contact/" class="text-[#a11b1b] font-semibold"
+              >Contacts</a
+            >
+          </li>
           <li>
             <button><img src="" alt="change-mode-toogle" /></button>
           </li>
@@ -25,5 +37,51 @@
       </nav>
     </header>
     <!-- Navbar -->
+    <main class="mt-16">
+      <section id="hero" class="pl-6">
+        <h1 class="font-bold text-[5rem] text-[#A11B1B]">Hi, I am Naswa !</h1>
+        <p class="text-lg text-[#740E0E] w-9/12">
+          Front-end Developer based in Indonesia
+          <span><img src="" alt="indonesian flag" class="w-2 inline" /></span> .
+          Passionate about providing solutions, crafting visually appealing with
+          seamless user experiences and  develop impactful things for our
+          environtment.
+        </p>
+        <ul class="flex gap-8 mt-6">
+          <li class="w-[8rem]">
+            <button class="text-white bg-[#0A66C2] px-2 py-1 rounded w-full">
+              <span>
+                <img src="" alt="linkedin" />
+                <p class="font-bold text-base">Connect</p>
+              </span>
+            </button>
+          </li>
+          <li class="w-[8rem]">
+            <button class="text-white bg-[#2AABEE] px-2 py-1 rounded w-full">
+              <span>
+                <img src="" alt="telegram" />
+                <p class="font-bold text-base">Chat</p>
+              </span>
+            </button>
+          </li>
+          <li class="w-[8rem]">
+            <button class="text-white bg-[#000000] px-2 py-1 rounded w-full">
+              <span>
+                <img src="" alt="github" />
+                <p class="font-bold text-base">Follow</p>
+              </span>
+            </button>
+          </li>
+          <li class="w-[8rem]">
+            <button class="text-white bg-[#A11B1B] px-2 py-1 rounded w-full">
+              <span>
+                <img src="" alt="resume" />
+                <p class="font-bold text-base">Resume</p>
+              </span>
+            </button>
+          </li>
+        </ul>
+      </section>
+    </main>
   </body>
 </html>
