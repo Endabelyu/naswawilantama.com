@@ -43,7 +43,7 @@ This project was designed on Figma, click the link below to look into the design
   5. how to use GIT,
   6. Implementation in simple projects.
 
-  try to do CRUD (Create,Read,Update,Delete) terminal:
+  try to do CRUD (Create, Read, Update, Delete) terminal:
 
   1. Create directory
      ![Create Dir](assets/images/terminal-create.png)
