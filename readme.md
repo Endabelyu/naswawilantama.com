@@ -35,10 +35,32 @@ This project was designed on Figma, click the link below to look into the design
   4. markdown,
   5. how to build markdown in our projects.
 - Day 4
+
   1. Learning about the terminal,
   2. command in terminals,
   3. step by step to using terminals with CLI,
   4. What is GIT,
   5. how to use GIT,
   6. Implementation in simple projects.
+
+  try to do CRUD (Create,Read,Update,Delete) terminal:
+
+  1. Create directory
+     ![Create Dir](assets/images/terminal-create.png)
+  1. Read directory
+     ![Read Dir](assets/images/terminal-read.png)
+  1. Go to the directory
+     ![ Go to Dir](assets/images/read-terminal-2.png)
+  1. Rename directory
+     ![Rename Dir](assets/images/rename-terminal.png)
+  1. Delete directory
+     ![Delete Dir](assets/images/delete-terminal.png)
+
 - Day 5
+  1. learning about HTML,
+  2. tag-tag html,
+  3. semantic element html,
+  4. learning about hosting website
+- Day 6
+  1. learning about CSS,
+  2.
