@@ -63,4 +63,73 @@ This project was designed on Figma, click the link below to look into the design
   4. learning about hosting website
 - Day 6
   1. learning about CSS,
-  2.
+  2. implementation bout some CSS properties
+  3. implementation bout grid and layout
+
+##### Try some vanilla CSS for styling in navbar
+
+```css
+/* flex */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navbar > nav {
+  width: 30rem;
+}
+
+#navbar > nav > ul {
+  display: flex;
+  gap: 1rem;
+  padding: 0;
+  list-style: none;
+}
+
+#navbar > nav > ul > li {
+  padding: 0 0.25rem 0 0.25rem;
+  border-radius: 0.25rem;
+}
+
+#navbar > nav > ul > li:hover {
+  background-color: #ffd399;
+}
+
+#navbar > nav > ul > li > a {
+  color: #a11b1b;
+  font-weight: 600;
+}
+```
+
+```css
+/* grid */
+
+#navbar {
+  display: grid;
+  grid-template-columns: auto auto;
+  justify-content: space-between;
+}
+
+#navbar > nav {
+  width: 30rem;
+}
+#navbar > nav > ul {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+}
+
+#navbar > nav > ul > li {
+  padding: 0 0.25rem 0 0.25rem;
+  border-radius: 0.25rem;
+  text-align: center;
+}
+
+#navbar > nav > ul > li:hover {
+  background-color: #ffd399;
+}
+
+#navbar > nav > ul > li > a {
+  color: #a11b1b;
+  font-weight: 600;
+}
+```
