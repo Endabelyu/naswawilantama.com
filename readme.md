@@ -15,6 +15,20 @@ This project was designed on Figma, click the link below to look into the design
 
 [naswawilantama.com](https://www.figma.com/design/rIp4mfha1he0Hxnji9hrCJ/naswawilantama.com?node-id=0-1&t=ujBG9MAMByB0FfbL-1)
 
+## How to run this project
+
+1. clone the repository
+
+```
+https://github.com/Endabelyu/naswawilantama.com.git
+```
+
+1. install package from package.json
+
+```
+npm install
+```
+
 ## **Progress Bearmentor #4**
 
 - Day 1
