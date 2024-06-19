@@ -10,11 +10,16 @@
   </head>
   <body class="md:pt-[20px] md:py-[9rem];">
     <!-- Navbar -->
-    <header id="navbar" class="flex justify-between">
+    <header id="navbar" class="flex justify-between w-full">
       <img src="../../assets/Endabelyu-Logo-2.svg" alt="Endabelyu-Logo" />
-      <nav class="w-[30rem] md:block hidden">
-        <ul class="flex gap-4 p-0 list-none justify-end">
-          <li class="px-1 rounded hover:bg-[#ffd399]">
+      <nav class="w-[30rem] md:block md:flex-row flex justify-end">
+          
+          <input type="checkbox" name="burger-bar" id="burger-bar" class="md:hidden  peer w-12 h-12 opacity-0 absolute top-5 z-10 ml-5">
+          <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="#a11b1b" transform="rotate(0)" class="md:hidden relative peer-checked:bg-[#ffd399]  w-14 h-14 rounded-md ml-5"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#a11b1b" stroke-linecap="round" stroke-linejoin="round"></path> </g></svg>
+
+        
+        <ul class="flex md:w-auto md:p-0 md:h-auto md:static md:translate-x-0 gap-4 md:flex-row  list-none md:justify-end  p-4 absolute top-20 flex-col  peer-checked:bg-[#ffd399]  translate-x-full  peer-checked:translate-x-0 transition-transform duration-300 ease-in-out">
+          <li class="px-1 rounded hover:bg-[rgb(255,211,153)]">
             <a href="/" class="text-[#a11b1b] font-semibold">Home</a>
           </li>
           <li class="px-1 rounded hover:bg-[#ffd399]">
@@ -35,7 +40,7 @@
           </li> -->
         </ul>
       </nav>
-    </header> 
+    </header>
     <!-- Navbar -->
     <main class="mt-16 min-h-screen">
       
